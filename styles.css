@@ -12,7 +12,8 @@ transition: transform 0.3s ease;
 .img1:hover {transform: translate(5px,-5px);
 }
 
-.img2 { position: fixed;
+.img2 { position: sticky;
+top: 10px;
 }
 
 .img3 { position: relative;
