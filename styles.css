@@ -9,10 +9,9 @@ position:fixed
 }
 
 .img2 { position: fixed;
-
 }
 
-.img3 {
-
-
+.img3 { position: relative;
+right: 15px;
+bottom: 30px;
 }
