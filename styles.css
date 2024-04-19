@@ -5,7 +5,11 @@ img {
 
 .img1 { right: 0; 
 bottom: 0; 
-position:fixed
+position:fixed;
+transition: transform 0.3s ease;
+}
+
+.img1:hover {transform: translate(5px,-5px);
 }
 
 .img2 { position: fixed;
@@ -16,5 +20,21 @@ right: 15px;
 bottom: 30px;
 }
 
-table {margin-left: auto; margin-right: auto;
-}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  tr, td {
+    border: 5px solid #0ce7fb;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: yellow;
+    border-radius: 5px;
+  }
+  
